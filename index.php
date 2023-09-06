@@ -14,6 +14,7 @@ Desafios\Desafio1001::setValues([10,9]);
 echo Desafios\Desafio1001::sumValues();
 echo BeecrowdBase::checkResult("X = 19", Desafios\Desafio1001::sumValues());
 
+
 // Desafio 1002 ---------------------------------------------------------------------------
 echo BeecrowdBase::getQuestionText(1002);
 
@@ -22,6 +23,7 @@ echo Desafios\Desafio1002::getArea();
 
 echo BeecrowdBase::checkResult("A=12.5664", Desafios\Desafio1002::getArea());
 
+
 // Desafio 1003 ---------------------------------------------------------------------------
 echo BeecrowdBase::getQuestionText(1003);
 
@@ -29,12 +31,14 @@ BeecrowdBase::setValues([30, 10]);
 echo Desafios\Desafio1003::somaSimples();
 echo BeecrowdBase::checkResult("SOMA = 40", Desafios\Desafio1003::somaSimples());
 
+
 // Desafio 1004 ---------------------------------------------------------------------------
 echo BeecrowdBase::getQuestionText(1004);
 
 BeecrowdBase::setValues([3, 9]);
 echo Desafios\Desafio1004::produtoSimples();
 echo BeecrowdBase::checkResult("PROD = 27", Desafios\Desafio1004::produtoSimples());
+
 
 // Desafio 1005 ---------------------------------------------------------------------------
 echo BeecrowdBase::getQuestionText(1005);
